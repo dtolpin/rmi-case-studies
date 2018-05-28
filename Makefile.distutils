@@ -1,0 +1,10 @@
+all: test
+
+test:
+	python setup.py test
+
+develop:
+	python setup.py develop --prefix=$(VIRTUAL_ENV)
+
+install:
+	python setup.py install --prefix=$(VIRTUAL_ENV)

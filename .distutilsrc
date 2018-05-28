@@ -1,0 +1,4 @@
+# Environment setup for distutils.
+
+export VIRTUAL_ENV=$CONDA_PREFIX
+export PYTHONPATH=`echo $VIRTUAL_ENV/lib/python*/site-packages`
